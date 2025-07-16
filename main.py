@@ -4,6 +4,7 @@ import sys
 import google_init
 import asyncio
 from logs.agent_manager import AgentManager
+import agent_tasks
 
 async def agent_main():
     '''Main agent logic - this is what runs for one cycle of operations'''
@@ -13,13 +14,13 @@ async def agent_main():
     # Your main agent logic here for ONE ITERATION
     try:
         # Process leads
-        await google_init.process_leads()
+        await agent_tasks.process_leads()
         
         # Handle customer service
-        await google_init.handle_customer_service()
+        await agent_tasks.handle_customer_service()
         
         # Check inventory
-        await google_init.check_inventory()
+        await agent_tasks.check_inventory()
         
         # No small delay here if AgentManager handles the loop and delay
         # The AgentManager.start_daemon already has a sleep or restart_delay
