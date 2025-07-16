@@ -5,6 +5,7 @@ import asyncio
 import logging
 import signal
 import sys
+import os
 from datetime import datetime
 from typing import Callable, Optional
 import traceback
@@ -29,7 +30,7 @@ class AgentManager:
         # Setup logging
         self.setup_logging()
         # Initialize the logger for AgentManager AFTER setup_logging
-        self.logger = logging.getLogger('AgentManager') # <--- ADD THIS LINE HERE
+        self.logger = logging.getLogger('AgentManager')
         self.logger.info("AgentManager initialized.")
         
         # Initialize health monitor
@@ -50,19 +51,29 @@ class AgentManager:
     def setup_logging(self):
         """Configure logging based on config"""
         # Access log_level directly from the config_manager instance
-        log_level_str = self.config_manager.log_level.upper() # Get the string from ConfigManager
+        log_level_str = self.config_manager.log_level.upper() 
         
         # Use getattr to safely convert the string log level to a logging constant
         log_level = getattr(logging, log_level_str, logging.INFO)
         
-        logging.basicConfig(
-            level=log_level,
-            format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler('autopilot_agent.log'),
-                logging.StreamHandler()
-            ]
-        )
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        log_dir = os.path.join(script_dir) # Or just script_dir if you want logs directly in 'logs' folder
+        os.makedirs(log_dir, exist_ok=True) # Ensure log directory exists
+        log_file_path = os.path.join(log_dir, 'autopilot_agent.log')
+
+        # --- Add a print statement to verify the path ---
+        print(f"DEBUG: Attempting to write logs to: {log_file_path}")
+        # --- End print statement ---
+
+        if not logging.root.handlers:
+            logging.basicConfig(
+                level=log_level,
+                format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                handlers=[
+                    logging.FileHandler(log_file_path),
+                    logging.StreamHandler()
+                ]
+            )
         # Optional: Add a confirmation log
         logging.getLogger(__name__).info(f"Logging initialized with level: {logging.getLevelName(log_level)}")
     

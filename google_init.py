@@ -34,7 +34,7 @@ if not GOOGLE_API_KEY:
 try:
     llm = GoogleGenAI(
         # https://ai.google.dev/gemini-api/docs/models
-        model="models/gemini-2.5-pro",
+        model="models/gemini-2.5-flash",
         api_key=GOOGLE_API_KEY,
     )
     print(f"{custom_console.COLOR_GREEN}✅ Google AI initialized successfully (gemini-2.5-pro){custom_console.RESET_COLOR}\n")

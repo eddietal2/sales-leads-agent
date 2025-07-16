@@ -1358,3 +1358,1282 @@ AttributeError: module 'google_init' has no attribute 'check_inventory'
 2025-07-16 15:15:23,460 - HealthMonitor - INFO - Health check results: {'memory_usage': 69.6, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
 2025-07-16 15:15:27,161 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
 2025-07-16 15:15:33,292 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 15:17:06,405 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:17:06,405 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 15:17:06,405 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:17:06,405 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 15:17:06,405 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:17:06,406 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:17:06,406 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:17:06,406 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:17:06,406 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:17:06,406 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:17:06,406 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:17:06,407 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:17:13,457 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:17:13,458 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:17:13,458 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:17:13,460 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 15:17:13,631 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 15:17:13,632 - HealthMonitor - INFO - Health check results: {'memory_usage': 69.2, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
+2025-07-16 15:17:17,208 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:17:19,050 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:17:19,183 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:17:23,454 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 15:22:40,410 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:22:40,410 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 15:22:40,411 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:22:40,411 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 15:22:40,411 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:22:40,411 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:22:40,411 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:22:40,412 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:22:40,412 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:22:40,412 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:22:40,412 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:22:40,413 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:22:45,074 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:22:45,074 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:22:45,075 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:22:45,075 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 15:22:45,237 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 15:22:45,237 - HealthMonitor - INFO - Health check results: {'memory_usage': 69.4, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
+2025-07-16 15:22:55,088 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:22:55,088 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:22:55,088 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:22:55,088 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:22:55,088 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:22:55,088 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:22:55,088 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:22:55,089 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:23:04,905 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:23:04,906 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:23:04,908 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:23:14,914 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:23:14,914 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:23:14,914 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:23:14,914 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:23:14,914 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:23:14,915 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:23:14,915 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:23:14,915 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:23:19,275 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:23:19,277 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:23:19,277 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:23:29,292 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:23:29,292 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:23:29,292 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:23:29,292 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:23:29,292 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:23:29,292 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:23:29,293 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:23:29,293 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:23:45,133 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:23:45,134 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:23:45,135 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:23:55,137 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:23:55,137 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:23:55,137 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:23:55,137 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:23:55,138 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:23:55,138 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:23:55,138 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:23:55,139 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:23:58,713 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:23:58,714 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:23:58,714 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:25:55,904 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:25:55,904 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 15:25:55,905 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:25:55,905 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 15:25:55,905 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:25:55,905 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:25:55,905 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:25:55,905 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:25:55,905 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:25:55,905 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:25:55,905 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:25:55,906 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:25:59,199 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:25:59,200 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:25:59,200 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:25:59,200 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 15:25:59,370 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 15:25:59,370 - HealthMonitor - INFO - Health check results: {'memory_usage': 71.0, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
+2025-07-16 15:26:09,201 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:26:09,201 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:26:09,201 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:26:09,201 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:26:09,201 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:26:09,202 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:26:09,202 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:26:09,203 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:09,364 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:26:09,364 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2025-07-16 15:26:09,377 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+
+2025-07-16 15:26:09,378 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 1/5)
+2025-07-16 15:26:19,393 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:26:19,393 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:26:19,393 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:26:19,393 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:26:19,394 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:26:19,394 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:26:19,394 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:26:19,394 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:22,259 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:26:22,260 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:26:22,260 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:26:32,274 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:26:32,274 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:26:32,274 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:26:32,274 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:26:32,275 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:26:32,275 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:26:32,275 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:26:32,276 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:32,432 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:26:32,433 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}
+2025-07-16 15:26:32,436 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}
+
+2025-07-16 15:26:32,437 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 1/5)
+2025-07-16 15:26:42,445 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:26:42,445 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:26:42,445 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:26:42,445 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:26:42,445 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:26:42,445 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:26:42,446 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:26:42,446 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:42,595 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:26:42,597 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '18s'}]}}
+2025-07-16 15:26:42,599 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '18s'}]}}
+
+2025-07-16 15:26:42,600 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 2/5)
+2025-07-16 15:26:52,600 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:26:52,600 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:26:52,602 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:26:52,602 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:26:52,602 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:26:52,602 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:26:52,602 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:26:52,603 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:26:52,752 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:26:52,753 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}
+2025-07-16 15:26:52,756 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}
+
+2025-07-16 15:26:52,757 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 3/5)
+2025-07-16 15:27:02,762 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:27:02,762 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:27:02,762 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:27:02,762 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:27:02,762 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:27:02,762 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:27:02,762 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:27:02,763 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:27:02,908 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:27:02,909 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}
+2025-07-16 15:27:02,912 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}
+
+2025-07-16 15:27:02,913 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 4/5)
+2025-07-16 15:27:12,915 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:27:12,915 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:27:12,915 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:27:12,916 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:27:12,916 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:27:12,916 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:27:12,916 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:27:12,917 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:27:13,058 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:27:13,059 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}
+2025-07-16 15:27:13,062 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}
+
+2025-07-16 15:27:13,063 - AgentManager - CRITICAL - Max restart attempts (5) exceeded. Stopping daemon.
+2025-07-16 15:27:13,063 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 15:27:44,138 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:27:44,138 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 15:27:44,139 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:27:44,139 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 15:27:44,139 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:27:44,139 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:27:44,139 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:27:44,139 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:27:44,140 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:27:44,140 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:27:44,140 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:27:44,141 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:27:50,740 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:27:50,742 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:27:50,742 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:27:50,742 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 15:27:50,906 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 15:27:50,906 - HealthMonitor - INFO - Health check results: {'memory_usage': 65.0, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
+2025-07-16 15:28:00,741 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:28:00,741 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:28:00,741 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:28:00,741 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:28:00,742 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:28:00,742 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:28:00,742 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:28:00,742 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:28:04,780 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:28:04,781 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:28:04,782 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:28:10,461 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:28:10,811 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:28:14,795 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 15:29:37,152 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:29:37,153 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 15:29:37,153 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:29:37,153 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 15:29:37,153 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:29:37,154 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:29:37,154 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:29:37,154 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:29:37,154 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:29:37,154 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:29:37,154 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:29:37,155 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:29:43,047 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 15:29:43,048 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 15:29:43,049 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 15:29:43,049 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 15:29:43,237 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 15:29:43,238 - HealthMonitor - INFO - Health check results: {'memory_usage': 66.2, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
+2025-07-16 15:29:53,062 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:29:53,062 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:29:53,062 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:29:53,062 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:29:53,063 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:29:53,063 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:29:53,063 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:29:53,063 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:29:53,216 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:29:53,217 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}
+2025-07-16 15:29:53,223 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 113, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}
+
+2025-07-16 15:29:53,225 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 1/5)
+2025-07-16 15:30:03,230 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:30:03,230 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:30:03,230 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:30:03,230 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:30:03,230 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:30:03,231 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:30:03,231 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:30:03,231 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:30:03,393 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:30:03,394 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}
+2025-07-16 15:30:03,397 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 113, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}
+
+2025-07-16 15:30:03,398 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 2/5)
+2025-07-16 15:30:13,412 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:30:13,412 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:30:13,412 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:30:13,412 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:30:13,412 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:30:13,413 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:30:13,413 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:30:13,414 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:30:13,567 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:30:13,568 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}
+2025-07-16 15:30:13,570 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 113, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}
+
+2025-07-16 15:30:13,571 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 3/5)
+2025-07-16 15:30:20,067 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:30:20,676 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:30:23,105 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:30:23,573 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 15:30:46,962 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:30:46,962 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 15:30:46,963 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 15:30:46,963 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 15:30:46,963 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:30:46,963 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:30:46,963 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:30:46,963 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:30:46,963 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:30:46,963 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:30:46,963 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:30:46,964 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:30:47,040 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:30:47,041 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}
+2025-07-16 15:30:47,047 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 113, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}
+
+2025-07-16 15:30:47,048 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 1/5)
+2025-07-16 15:30:47,048 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 15:30:47,219 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 15:30:47,220 - HealthMonitor - WARNING - Error rate (0.50) exceeds threshold (0.10)
+2025-07-16 15:30:47,220 - HealthMonitor - INFO - Health check results: {'memory_usage': 66.7, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.5}
+2025-07-16 15:30:57,062 - AgentManager - INFO - Initializing agent...
+2025-07-16 15:30:57,062 - AgentTasks - INFO - Processing leads using Google AI...
+2025-07-16 15:30:57,063 - AgentTasks - INFO - Leads processing complete.
+2025-07-16 15:30:57,063 - AgentTasks - INFO - Handling customer service queries using Google AI...
+2025-07-16 15:30:57,063 - AgentTasks - INFO - Customer service handling complete.
+2025-07-16 15:30:57,063 - AgentTasks - INFO - Checking inventory using Google AI...
+2025-07-16 15:30:57,064 - AgentTasks - INFO - Inventory check complete.
+2025-07-16 15:30:57,064 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 15:30:57,221 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-16 15:30:57,222 - AgentManager - ERROR - Agent crashed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}
+2025-07-16 15:30:57,224 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 113, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 32, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 28, in agent_main
+    await init_agent()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 36, in init_agent
+    answer = google_init.llm.complete("What is 2 x 2?")  # Assuming this is your continuous agent loop
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index_instrumentation\dispatcher.py", line 319, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\llms\callbacks.py", line 435, in wrapped_llm_predict
+    f_return_val = f(_self, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 241, in complete
+    return chat_fn(prompt, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\core\base\llms\generic_utils.py", line 184, in wrapper
+    chat_response = func(messages, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 89, in wrapper
+    return retry(f)(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\llama_index\llms\google_genai\base.py", line 273, in _chat
+    response = chat.send_message(next_msg.parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\chats.py", line 254, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 5898, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\models.py", line 4838, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 1067, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 958, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\AppData\Roaming\uv\python\cpython-3.12.11-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 948, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\.venv\Lib\site-packages\google\genai\errors.py", line 104, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}, 'quotaValue': '100'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}
+
+2025-07-16 15:30:57,225 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 2/5)
+2025-07-16 15:31:03,192 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:31:03,803 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 15:31:07,232 - AgentManager - INFO - Agent daemon stopped.
