@@ -29,9 +29,15 @@ class ConfigManager:
     _config_path: Optional[str] = field(default=None, repr=False)
 
     def __post_init__(self):
-        if self._config_path and os.path.exists(self._config_path):
+        # Determine the directory of the current script (config_manager.py)
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+        # Construct the full path to config.yaml, assuming it's in the same directory
+        self._config_path = os.path.join(script_dir, 'config.yaml')
+    
+        if os.path.exists(self._config_path):
             self._load_from_yaml(self._config_path)
-        elif self._config_path and not os.path.exists(self._config_path):
+        else:
             print(f"Warning: Configuration file not found at {self._config_path}. Using default or environment values.")
 
     def _load_from_yaml(self, config_path: str):
