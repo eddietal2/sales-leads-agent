@@ -30,7 +30,7 @@ class AgentManager:
         # Setup logging
         self.setup_logging()
         # Initialize the logger for AgentManager AFTER setup_logging
-        self.logger = logging.getLogger('AgentManager')
+        self.logger = logging.getLogger(f'{custom_console.COLOR_CYAN}AgentManager{custom_console.RESET_COLOR}')
         self.logger.info("AgentManager initialized.")
         
         # Initialize health monitor

@@ -2,9 +2,14 @@
 import asyncio
 import google_init # Import the module that initializes the LLM
 import logging
+import custom_console
+import tools
+
+# Planning Document
+# https://docs.google.com/document/d/1uJRDVrd9yLpk9W6RAPfcEmjX79Q2z1up0SemgUjUNtA/edit?tab=t.0
 
 # Get a logger for this module
-logger = logging.getLogger('AgentTasks')
+logger = logging.getLogger(f'{custom_console.COLOR_MAGENTA}AgentTasks{custom_console.RESET_COLOR}')
 
 async def process_leads():
     """

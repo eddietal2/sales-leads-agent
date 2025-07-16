@@ -16,12 +16,6 @@ async def agent_main():
         # Process leads
         await agent_tasks.process_leads()
         
-        # Handle customer service
-        await agent_tasks.handle_customer_service()
-        
-        # Check inventory
-        await agent_tasks.check_inventory()
-        
         # No small delay here if AgentManager handles the loop and delay
         # The AgentManager.start_daemon already has a sleep or restart_delay
 
