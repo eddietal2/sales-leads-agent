@@ -28,3 +28,632 @@
 2025-07-07 23:45:48,134 - AutoPilotAgent - INFO - Received signal 2. Initiating graceful shutdown...
 2025-07-07 23:45:48,463 - AutoPilotAgent - INFO - Received signal 2. Initiating graceful shutdown...
 2025-07-07 23:45:50,600 - AutoPilotAgent - INFO - Agent daemon stopped.
+2025-07-08 19:44:33,507 - AutoPilotAgent - INFO - Starting AutoPilot Agent Daemon...
+2025-07-08 19:44:33,508 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:44:33,512 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:44:39,230 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:44:39,232 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:44:39,233 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:44:44,234 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:44:44,234 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:44:49,513 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:44:49,516 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:44:49,517 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:44:54,518 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:44:54,518 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:45:00,408 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:45:00,409 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:45:00,409 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:45:05,410 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:45:05,410 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:45:09,430 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:45:09,431 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:45:09,431 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:45:14,433 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:45:14,433 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:45:19,784 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:45:19,786 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:45:19,786 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:45:24,786 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:45:24,787 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:45:29,806 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:45:29,807 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:45:29,807 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:45:34,808 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:45:34,809 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:45:39,113 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:45:39,114 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:45:39,115 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:45:44,115 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:45:44,116 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:45:51,558 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:45:51,559 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:45:51,559 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:45:56,560 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:45:56,560 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:46:06,875 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:46:06,877 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:46:06,877 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:46:11,878 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:46:11,879 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:46:18,794 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:46:18,796 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:46:18,796 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:46:23,798 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:46:23,798 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:46:27,758 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:46:27,760 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:46:27,760 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:46:32,762 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:46:32,763 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:46:37,614 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:46:37,617 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:46:37,617 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:46:42,619 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:46:42,619 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:46:47,050 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:46:47,052 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:46:47,054 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:46:52,055 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:46:52,055 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:46:55,802 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:46:55,803 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:46:55,804 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:47:00,804 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:47:00,804 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:47:05,271 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:47:05,272 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:47:05,274 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:47:10,275 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:47:10,276 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:47:14,284 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:47:14,286 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:47:14,286 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:47:19,286 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:47:19,286 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:47:29,581 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:47:29,582 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:47:29,583 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:47:34,583 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:47:34,583 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:47:38,519 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:47:38,520 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:47:38,522 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:47:43,522 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:47:43,524 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:47:51,185 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:47:51,186 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:47:51,187 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:47:56,188 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:47:56,188 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:47:59,632 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:47:59,633 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:47:59,633 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:48:04,635 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:48:04,635 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:48:10,904 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:48:10,905 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:48:10,905 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:48:15,906 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:48:15,907 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:48:20,755 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:48:20,756 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:48:20,756 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:48:25,757 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:48:25,757 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:48:31,287 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:48:31,288 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:48:31,288 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:48:36,290 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:48:36,291 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:48:44,851 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:48:44,852 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:48:44,853 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:48:49,855 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:48:49,857 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:48:54,424 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:48:54,425 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:48:54,427 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:48:59,427 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:48:59,427 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:49:04,495 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:49:04,496 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:49:04,496 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:49:09,497 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:49:09,499 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:49:14,204 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:49:14,206 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:49:14,209 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:49:19,210 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:49:19,211 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:49:27,301 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:49:27,302 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:49:27,302 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:49:32,303 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:49:32,304 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:49:39,260 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:49:39,262 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:49:39,262 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:49:44,262 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:49:44,263 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:49:48,446 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:49:48,447 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:49:48,448 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:49:53,450 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:49:53,451 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:49:57,075 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:49:57,077 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:49:57,077 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:50:02,077 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:50:02,078 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:50:07,484 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:50:07,485 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:50:07,486 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:50:12,487 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:50:12,487 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:50:17,030 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:50:17,030 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:50:17,031 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:50:22,032 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:50:22,034 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:50:27,148 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:50:27,149 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:50:27,151 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:50:32,151 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:50:32,151 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:50:38,766 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:50:38,769 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:50:38,770 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:50:43,771 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:50:43,771 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:51:02,637 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:51:02,638 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:51:02,639 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:51:07,640 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:51:07,640 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:51:11,297 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:51:11,298 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:51:11,299 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:51:16,299 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:51:16,299 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:51:20,588 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:51:20,588 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:51:20,589 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:51:25,590 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:51:25,591 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:51:29,665 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:51:29,668 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:51:29,668 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:51:34,668 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:51:34,669 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:51:39,217 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:51:39,218 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:51:39,219 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:51:44,219 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:51:44,219 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:51:53,231 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:51:53,232 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:51:53,232 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-08 19:51:58,232 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-08 19:51:58,233 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-08 19:52:07,921 - AutoPilotAgent - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-08 19:52:07,922 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-08 19:52:07,927 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-08 19:52:07,928 - AutoPilotAgent - INFO - Agent daemon stopped.
+2025-07-16 10:59:56,763 - AutoPilotAgent - INFO - Starting AutoPilot Agent Daemon...
+2025-07-16 10:59:56,763 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-16 10:59:56,764 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 11:00:01,147 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 11:00:01,149 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 11:00:01,149 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-16 11:00:06,154 - AutoPilotAgent - INFO - Initializing agent...
+2025-07-16 11:00:06,155 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 11:00:12,366 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 11:00:12,367 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 11:00:12,367 - AutoPilotAgent - INFO - Agent completed. Restarting in 5 seconds...
+2025-07-16 11:00:13,200 - AutoPilotAgent - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 11:00:13,730 - AutoPilotAgent - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 11:00:14,398 - AutoPilotAgent - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 11:00:17,373 - AutoPilotAgent - INFO - Agent daemon stopped.
+2025-07-16 13:36:08,458 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:39:54,566 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:39:54,566 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 13:41:40,720 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:41:40,720 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 13:41:40,721 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:41:40,721 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 13:41:40,721 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:41:43,754 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'process_leads'
+2025-07-16 13:41:43,755 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 102, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 18, in agent_main
+    await google_init.process_leads()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'process_leads'
+
+2025-07-16 13:41:43,755 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 13:42:47,063 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:42:47,063 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 13:42:47,064 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:42:47,064 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 13:42:47,064 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:42:50,095 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'process_leads'
+2025-07-16 13:42:50,096 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 18, in agent_main
+    await google_init.process_leads()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'process_leads'
+
+2025-07-16 13:42:50,097 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 1/5)
+2025-07-16 13:42:50,097 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 13:42:50,262 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 13:42:50,263 - HealthMonitor - WARNING - Error rate (0.50) exceeds threshold (0.10)
+2025-07-16 13:42:50,263 - HealthMonitor - INFO - Health check results: {'memory_usage': 65.6, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.5}
+2025-07-16 13:43:00,093 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:43:03,124 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'process_leads'
+2025-07-16 13:43:03,125 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 18, in agent_main
+    await google_init.process_leads()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'process_leads'
+
+2025-07-16 13:43:03,125 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 2/5)
+2025-07-16 13:43:13,128 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:43:16,160 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'process_leads'
+2025-07-16 13:43:16,161 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 18, in agent_main
+    await google_init.process_leads()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'process_leads'
+
+2025-07-16 13:43:16,162 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 3/5)
+2025-07-16 13:43:26,171 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:43:29,202 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'process_leads'
+2025-07-16 13:43:29,203 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 18, in agent_main
+    await google_init.process_leads()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'process_leads'
+
+2025-07-16 13:43:29,203 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 4/5)
+2025-07-16 13:43:39,218 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:43:42,247 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'process_leads'
+2025-07-16 13:43:42,248 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 18, in agent_main
+    await google_init.process_leads()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'process_leads'
+
+2025-07-16 13:43:42,248 - AgentManager - CRITICAL - Max restart attempts (5) exceeded. Stopping daemon.
+2025-07-16 13:43:42,248 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 13:45:07,692 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:45:07,692 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 13:45:07,693 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:45:07,693 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 13:45:07,693 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:45:10,727 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'handle_customer_service'
+2025-07-16 13:45:10,728 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 21, in agent_main
+    await google_init.handle_customer_service()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'handle_customer_service'
+
+2025-07-16 13:45:10,729 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 1/5)
+2025-07-16 13:45:10,729 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 13:45:10,902 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 13:45:10,903 - HealthMonitor - WARNING - Error rate (0.50) exceeds threshold (0.10)
+2025-07-16 13:45:10,903 - HealthMonitor - INFO - Health check results: {'memory_usage': 66.0, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.5}
+2025-07-16 13:45:20,740 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:45:23,772 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'handle_customer_service'
+2025-07-16 13:45:23,773 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 21, in agent_main
+    await google_init.handle_customer_service()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'handle_customer_service'
+
+2025-07-16 13:45:23,773 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 2/5)
+2025-07-16 13:45:33,776 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:45:36,806 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'handle_customer_service'
+2025-07-16 13:45:36,807 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 21, in agent_main
+    await google_init.handle_customer_service()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'handle_customer_service'
+
+2025-07-16 13:45:36,807 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 3/5)
+2025-07-16 13:45:46,816 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:45:49,846 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'handle_customer_service'
+2025-07-16 13:45:49,847 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 21, in agent_main
+    await google_init.handle_customer_service()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'handle_customer_service'
+
+2025-07-16 13:45:49,847 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 4/5)
+2025-07-16 13:45:59,849 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:46:02,879 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'handle_customer_service'
+2025-07-16 13:46:02,880 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 21, in agent_main
+    await google_init.handle_customer_service()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'handle_customer_service'
+
+2025-07-16 13:46:02,880 - AgentManager - CRITICAL - Max restart attempts (5) exceeded. Stopping daemon.
+2025-07-16 13:46:02,880 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 13:46:18,010 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:46:18,010 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 13:46:18,010 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:46:18,011 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 13:46:18,011 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:46:21,042 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'check_inventory'
+2025-07-16 13:46:21,045 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 24, in agent_main
+    await google_init.check_inventory()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'check_inventory'
+
+2025-07-16 13:46:21,045 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 1/5)
+2025-07-16 13:46:21,045 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 13:46:21,240 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 13:46:21,241 - HealthMonitor - WARNING - Error rate (0.50) exceeds threshold (0.10)
+2025-07-16 13:46:21,241 - HealthMonitor - INFO - Health check results: {'memory_usage': 66.1, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.5}
+2025-07-16 13:46:31,067 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:46:34,095 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'check_inventory'
+2025-07-16 13:46:34,096 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 24, in agent_main
+    await google_init.check_inventory()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'check_inventory'
+
+2025-07-16 13:46:34,096 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 2/5)
+2025-07-16 13:46:44,110 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:46:47,141 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'check_inventory'
+2025-07-16 13:46:47,142 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 24, in agent_main
+    await google_init.check_inventory()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'check_inventory'
+
+2025-07-16 13:46:47,142 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 3/5)
+2025-07-16 13:46:57,147 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:47:00,176 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'check_inventory'
+2025-07-16 13:47:00,177 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 24, in agent_main
+    await google_init.check_inventory()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'check_inventory'
+
+2025-07-16 13:47:00,177 - AgentManager - INFO - Restarting in 10 seconds... (Attempt 4/5)
+2025-07-16 13:47:10,183 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:47:13,216 - AgentManager - ERROR - Agent crashed: module 'google_init' has no attribute 'check_inventory'
+2025-07-16 13:47:13,218 - AgentManager - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\logs\agent_manager.py", line 103, in start_daemon
+    await self.agent_function()
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 31, in agent_main
+    raise e
+  File "C:\Users\eddie\OneDrive\Documents\Web Projects\sales-leads-agent\main.py", line 24, in agent_main
+    await google_init.check_inventory()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'google_init' has no attribute 'check_inventory'
+
+2025-07-16 13:47:13,218 - AgentManager - CRITICAL - Max restart attempts (5) exceeded. Stopping daemon.
+2025-07-16 13:47:13,218 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 13:47:31,187 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:47:31,187 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 13:47:31,187 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:47:31,187 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 13:47:31,188 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:47:34,218 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 13:47:34,391 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 13:47:34,391 - HealthMonitor - INFO - Health check results: {'memory_usage': 67.0, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
+2025-07-16 13:48:22,785 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:41,842 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:43,133 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:45,164 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:49,223 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:49,332 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:49,462 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:49,591 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:49,743 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:49,857 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:52,482 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:49:59,348 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:50:16,039 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:50:16,039 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 13:50:16,039 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:50:16,040 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 13:50:16,040 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:50:16,040 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:50:16,040 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 13:50:16,209 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 13:50:16,209 - HealthMonitor - INFO - Health check results: {'memory_usage': 67.0, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
+2025-07-16 13:50:26,048 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:50:26,048 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:50:36,054 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:50:36,054 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:50:46,063 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:50:46,064 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:50:56,070 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:50:56,071 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:51:03,114 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:51:06,069 - AgentManager - INFO - Agent daemon stopped.
+2025-07-16 13:53:22,641 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:53:22,641 - AgentManager - INFO - AgentManager initialized.
+2025-07-16 13:53:22,642 - logs.agent_manager - INFO - Logging initialized with level: INFO
+2025-07-16 13:53:22,642 - AgentManager - INFO - Starting AutoPilot Agent Daemon with health monitoring...
+2025-07-16 13:53:22,642 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:53:22,643 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:53:24,340 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-07-16 13:53:24,341 - llama_index.llms.google_genai.utils - WARNING - Retrying llama_index.llms.google_genai.base.GoogleGenAI._chat in 0.8279599808037228 seconds as it raised ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}.
+2025-07-16 13:53:25,169 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:53:30,181 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-07-16 13:53:30,182 - llama_index.llms.google_genai.utils - WARNING - Retrying llama_index.llms.google_genai.base.GoogleGenAI._chat in 0.4528662620389148 seconds as it raised ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}.
+2025-07-16 13:53:30,635 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:53:38,626 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:53:38,627 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:53:38,628 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:53:38,628 - HealthMonitor - INFO - Starting health monitoring with interval: 300 seconds.
+2025-07-16 13:53:38,803 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 13:53:38,803 - HealthMonitor - INFO - Health check results: {'memory_usage': 69.2, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
+2025-07-16 13:53:48,634 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:53:48,635 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:53:56,760 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:53:56,761 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:53:56,762 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:54:06,769 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:54:06,770 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:54:09,523 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-07-16 13:54:09,524 - llama_index.llms.google_genai.utils - WARNING - Retrying llama_index.llms.google_genai.base.GoogleGenAI._chat in 0.9013432340109535 seconds as it raised ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}.
+2025-07-16 13:54:10,427 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:54:15,270 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:54:15,272 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:54:15,272 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:54:25,285 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:54:25,286 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:54:29,204 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:54:29,206 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:54:29,207 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:54:39,219 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:54:39,220 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:54:44,222 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:54:44,223 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:54:44,224 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:54:54,237 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:54:54,238 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:54:57,892 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:54:57,893 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:54:57,894 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:55:07,899 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:55:07,901 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:55:13,507 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:55:13,508 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:55:13,508 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:55:23,520 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:55:23,521 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:55:28,891 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:55:28,892 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:55:28,892 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:55:38,905 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:55:38,907 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:55:43,284 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:55:43,285 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:55:43,286 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:55:53,296 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:55:53,297 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:56:00,220 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:56:00,221 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:56:00,222 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:56:10,232 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:56:10,233 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:56:16,377 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:56:16,378 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:56:16,379 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:56:26,387 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:56:26,388 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:56:49,605 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:56:49,606 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:56:49,607 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:56:59,609 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:56:59,610 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:57:04,353 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:57:04,354 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:57:04,355 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:57:14,359 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:57:14,360 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:57:21,571 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:57:21,572 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:57:21,573 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:57:31,574 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:57:31,575 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:57:34,948 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:57:34,949 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:57:34,950 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:57:44,965 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:57:44,966 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:57:48,886 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:57:48,887 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:57:48,887 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:57:58,892 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:57:58,893 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:58:03,539 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:58:03,541 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:58:03,541 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:58:13,542 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:58:13,543 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:58:17,475 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:58:17,476 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:58:17,477 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:58:27,477 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:58:27,479 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:58:31,591 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:58:31,593 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:58:31,593 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:58:38,962 - HealthMonitor - WARNING - Disk space usage (91.6%) exceeds threshold (90.0%)
+2025-07-16 13:58:38,962 - HealthMonitor - INFO - Health check results: {'memory_usage': 65.5, 'disk_space': 91.6, 'api_connectivity': True, 'error_rate': 0.0}
+2025-07-16 13:58:41,591 - AgentManager - INFO - Initializing agent...
+2025-07-16 13:58:41,592 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-16 13:58:45,888 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-07-16 13:58:45,889 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-16 13:58:45,890 - AgentManager - INFO - Agent completed. Restarting in 10 seconds...
+2025-07-16 13:58:50,193 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:58:51,321 - AgentManager - INFO - Received signal 2. Initiating graceful shutdown...
+2025-07-16 13:58:55,906 - AgentManager - INFO - Agent daemon stopped.

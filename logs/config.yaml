@@ -1,0 +1,32 @@
+# config.yaml
+# AutoPilot AI Agent Configuration
+
+# Daemon settings
+restart_delay: 10
+log_level: INFO
+max_restart_attempts: 5
+
+# Health monitoring
+health_check_interval: 300  # 5 minutes
+health_log_retention_days: 7
+
+# System thresholds (percentages)
+cpu_threshold: 80.0
+memory_threshold: 85.0
+disk_threshold: 90.0
+error_rate_threshold: 0.1  # 10%
+
+# API settings
+# openai_api_key: "your-openai-api-key-here"
+# google_credentials_path: "path/to/google/credentials.json"
+api_timeout: 30
+
+# Business logic
+lead_response_delay: 5
+customer_service_hours: "9-17"
+inventory_check_interval: 3600  # 1 hour
+
+# Alerts and notifications
+alert_email: "eddielacrosse2@gmail.com"
+# slack_webhook: "https://hooks.slack.com/services/..."
+enable_sms_alerts: false
