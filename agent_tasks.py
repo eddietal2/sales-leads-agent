@@ -30,7 +30,6 @@ async def process_leads():
     # --- END OF EXAMPLE LOGIC ---
     logger.info("Leads processing complete.")
 
-
 async def handle_customer_service():
     """
     Handles customer service inquiries using the initialized LLM.
@@ -52,7 +51,6 @@ async def handle_customer_service():
     #     logger.error(f"Error during customer service handling: {e}")
     # --- END OF EXAMPLE LOGIC ---
     logger.info("Customer service handling complete.")
-
 
 async def check_inventory():
     """

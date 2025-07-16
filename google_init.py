@@ -51,5 +51,4 @@ def main():
     print(f"{custom_console.COLOR_CYAN}Answer: {custom_console.RESET_COLOR}", response)
 
 if __name__ == "__main__":
-    custom_console.clear_console()
     main()
